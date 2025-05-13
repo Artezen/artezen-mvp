@@ -4,5 +4,5 @@ document.getElementById("onboardingForm").addEventListener("submit", function (e
   const values = Array.from(document.querySelectorAll("input[name=value]:checked")).map(i => i.value);
   localStorage.setItem("goal", goal);
   localStorage.setItem("values", JSON.stringify(values));
-  alert("Saved! Now build session page to continue.");
+  window.location.href = "session.html";
 });
