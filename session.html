@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Artezen Session</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Your Artezen Session</h1>
+    <p id="sessionContent">Loading session...</p>
+    <button onclick="window.location.href='feedback.html'">Finish Session</button>
+  </div>
+  <script>
+    const goal = localStorage.getItem("goal");
+    const values = JSON.parse(localStorage.getItem("values"));
+    document.getElementById("sessionContent").textContent = `Session for goal: ${goal}, values: ${values.join(", ")}`;
+  </script>
+</body>
+</html>
