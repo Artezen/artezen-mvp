@@ -1,0 +1,18 @@
+[
+  {
+    "id": "clip1",
+    "title": "Centering Breath",
+    "modality": "breathwork",
+    "goal": "calm",
+    "duration": "2",
+    "url": "https://example.com/breath.mp4"
+  },
+  {
+    "id": "clip2",
+    "title": "Seated Spinal Stretch",
+    "modality": "movement",
+    "goal": "grounded",
+    "duration": "3",
+    "url": "https://example.com/stretch.mp4"
+  }
+]
